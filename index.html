@@ -1,0 +1,100 @@
+<!-- ============================= -->
+<!-- 1. Declare HTML5 Document -->
+<!DOCTYPE html>
+<!-- Declares the document as HTML5 -->
+
+<html lang="en">
+<!-- Starts the HTML document; lang="en" helps screen readers and search engines -->
+
+  <!-- ============================= -->
+  <!-- 2. Head Section -->
+  <head>
+    <meta charset="utf-8" />
+    <!-- Sets character encoding to UTF-8 -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Makes page responsive on mobile and desktop -->
+    
+    <link rel="icon" href="https://github.com/favicon.ico" />
+    <!-- Browser tab icon (favicon) -->
+    
+    <title>Your Title</title>
+    <!-- Page title in tab and search results -->
+    
+    <meta name="description" content="Transcription of rant/monologue" />
+    <!-- Short page description for search engines -->
+    
+    <meta name="robots" content="index,follow" />
+    <!-- Tells search engines to index page and follow links -->
+    
+    <!-- Open Graph (social media previews) -->
+    <meta property="og:title" content="Your Title" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://github.com/" />
+    
+    <meta name="twitter:card" content="summary" />
+    <!-- Twitter preview card -->
+    
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link external CSS file -->
+  </head>
+
+  <!-- ============================= -->
+  <!-- 3. Body Section (Semantic Elements) -->
+  <body>
+  
+    <header>
+      <h1>Page Title</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- 
+      <header>: Introductory content, often at the top, includes headings, logo, nav.
+      <nav>: Navigation links, menus, or table of contents.
+    -->
+    
+    <main>
+      <!-- <main>: Dominant content of the <body>; only one per page -->
+      
+      <article>
+        <h2>Article Title</h2>
+        <p>Independent piece of content like a blog post or news item.</p>
+        <!-- <article>: Self-contained, independent content -->
+        
+        <section>
+          <h3>Section Title</h3>
+          <p>Thematic grouping of content, often with a heading.</p>
+          <!-- <section>: Groups related content, often inside an article -->
+        </section>
+        
+        <figure>
+          <img src="image.jpg" alt="Description of image" />
+          <figcaption>Figure 1: Caption describing the image.</figcaption>
+        </figure>
+        <!-- <figure> + <figcaption>: Groups media (image/video/code) with a caption -->
+        
+        <time datetime="2025-10-07T12:00">October 7, 2025</time>
+        <!-- <time>: Represents a specific point in time or a time range -->
+        
+      </article>
+      
+      <aside>
+        <h3>Sidebar</h3>
+        <p>Related or supplemental content like ads, links, or pull quotes.</p>
+        <!-- <aside>: Tangentially related content -->
+      </aside>
+      
+    </main>
+    
+    <footer>
+      <p>&copy; 2025 Your Name. All rights reserved.</p>
+      <!-- <footer>: Footer of document/section with copyright or contact info -->
+    </footer>
+    
+  </body>
+</html>
